@@ -1,0 +1,6 @@
+[
+  {"name": "SSH", "type": "tcp", "host": "127.0.0.1", "port": 22},
+  {"name": "Example", "url": "https://example.com", "expected_status": 200, "type": "http"},
+  {"name": "Missing page", "url": "https://example.com/nope", "expected_status": 200, "type": "http"},
+  {"name": "Broken domain", "url": "https://this-site-does-not-exist.invalid", "expected_status": 200, "type": "http"}
+]
