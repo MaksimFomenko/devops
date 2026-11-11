@@ -5,9 +5,9 @@ import json
 import argparse
 import socket
 
-def check_status(url, expected_status):
+def check_status(url, expected_status, timeout=5):
     try:
-        response = requests.get(url, timeout=5)
+        response = requests.get(url, timeout=timeout)
         ok = response.status_code == expected_status
 
         if ok:
@@ -22,7 +22,7 @@ def check_status(url, expected_status):
 
 def check_tcp(site):
     try:
-        with socket.create_connection((site['host'], site['port']), timeout=5):
+        with socket.create_connection((site['host'], site['port']), timeout=site.get('timeout', 5)):
             return True, "OK (TCP connection successful)"
     except (socket.timeout, socket.error):
         return False, "FAIL (TCP connection failed)"
@@ -50,7 +50,7 @@ def main():
     
     for site in sites:
         if site['type'] == 'http':
-            status_ok, detail = check_status(site['url'], site['expected_status'])
+            status_ok, detail = check_status(site['url'], site['expected_status'], timeout=site.get('timeout', 5))
         elif site['type'] == 'tcp':
             status_ok, detail = check_tcp(site)
         else:
