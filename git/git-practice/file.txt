@@ -1,3 +1,0 @@
-feature line A
-feature line B (needed on main too
-feature line C
