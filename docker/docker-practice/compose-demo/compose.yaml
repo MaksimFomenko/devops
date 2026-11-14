@@ -1,0 +1,7 @@
+services:
+  web:
+    image: maksimfomenko/my-nginx:v1
+    ports:
+      - "8080:80"
+  cache:
+    image: redis:latest

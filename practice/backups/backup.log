@@ -1,0 +1,44 @@
+2026-10-19 09:08:03 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:03 Created /home/maksim/backups/testdata_2026-10-19_09-08-03.tar.gz
+2026-10-19 09:08:03 Rotation done, keeping last 5 archives
+2026-10-19 09:08:04 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:04 Created /home/maksim/backups/testdata_2026-10-19_09-08-04.tar.gz
+2026-10-19 09:08:04 Rotation done, keeping last 5 archives
+2026-10-19 09:08:05 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:05 Created /home/maksim/backups/testdata_2026-10-19_09-08-05.tar.gz
+2026-10-19 09:08:05 Rotation done, keeping last 5 archives
+2026-10-19 09:08:06 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:06 Created /home/maksim/backups/testdata_2026-10-19_09-08-06.tar.gz
+2026-10-19 09:08:06 Rotation done, keeping last 5 archives
+2026-10-19 09:08:07 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:07 Created /home/maksim/backups/testdata_2026-10-19_09-08-07.tar.gz
+2026-10-19 09:08:07 Rotation done, keeping last 5 archives
+2026-10-19 09:08:08 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:08 Created /home/maksim/backups/testdata_2026-10-19_09-08-08.tar.gz
+2026-10-19 09:08:08 Rotation done, keeping last 5 archives
+2026-10-19 09:08:09 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:08:10 Created /home/maksim/backups/testdata_2026-10-19_09-08-09.tar.gz
+2026-10-19 09:08:10 Rotation done, keeping last 5 archives
+2026-10-19 09:08:54 Starting backup of /root
+2026-10-19 09:08:54 ERROR: backup failed, partial archive removed
+2026-10-19 09:11:01 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:01 Created /home/maksim/backups/testdata_2026-10-19_09-11-01.tar.gz
+2026-10-19 09:11:01 Rotation done, keeping last 5 archives
+2026-10-19 09:11:02 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:02 Created /home/maksim/backups/testdata_2026-10-19_09-11-02.tar.gz
+2026-10-19 09:11:02 Rotation done, keeping last 5 archives
+2026-10-19 09:11:03 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:03 Created /home/maksim/backups/testdata_2026-10-19_09-11-03.tar.gz
+2026-10-19 09:11:03 Rotation done, keeping last 5 archives
+2026-10-19 09:11:04 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:04 Created /home/maksim/backups/testdata_2026-10-19_09-11-04.tar.gz
+2026-10-19 09:11:04 Rotation done, keeping last 5 archives
+2026-10-19 09:11:05 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:05 Created /home/maksim/backups/testdata_2026-10-19_09-11-05.tar.gz
+2026-10-19 09:11:05 Rotation done, keeping last 5 archives
+2026-10-19 09:11:06 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:06 Created /home/maksim/backups/testdata_2026-10-19_09-11-06.tar.gz
+2026-10-19 09:11:06 Rotation done, keeping last 5 archives
+2026-10-19 09:11:07 Starting backup of /home/maksim/practice/testdata
+2026-10-19 09:11:07 Created /home/maksim/backups/testdata_2026-10-19_09-11-07.tar.gz
+2026-10-19 09:11:07 Rotation done, keeping last 5 archives
