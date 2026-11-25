@@ -48,6 +48,8 @@ def main():
     fail_try = 0
     total_try = len(sites)
     
+    print("------------------------------------")
+    
     for site in sites:
         if site['type'] == 'http':
             status_ok, detail = check_status(site['url'], site['expected_status'], timeout=site.get('timeout', 5))

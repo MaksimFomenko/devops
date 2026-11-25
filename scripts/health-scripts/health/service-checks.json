@@ -1,0 +1,4 @@
+[
+    {"name": "Example", "type": "http", "url": "https://example.com", "expected_status": 200, "timeout": 5},
+    {"name": "SSH", "type": "tcp", "host": "127.0.0.1", "port": 22, "timeout": 2}
+]
